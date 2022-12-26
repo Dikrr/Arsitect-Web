@@ -1,0 +1,107 @@
+/* *{
+    border: 1px solid black;
+} */
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav{
+    box-shadow: 0 1px 2px 0 #e1e5ea;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul li a:hover{
+    color: #0d6efd !important;
+    
+}
+nav ul li button{
+    margin: 1px;
+}
+nav ul li button .call-icon{
+    height: 15px;
+    margin: 5px 10px 5px 0;
+    filter: invert();
+}
+.dropdown:hover>.dropdown-menu{
+    display: block
+}
+header .p-5{
+    height: 91vh ;
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+header .p-5 .container-fluid{
+    display: flex;
+}
+header .p-5 .container-fluid p{
+    width: 100%;
+}
+header .p-5 .container-fluid img{
+    height: 300px;
+    float: right;
+    margin: 20px;
+}
+main .desc{
+    display: flex;
+    margin: 20px;
+}
+main .desc .desc-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    height: 150px;
+    width: 170px;
+}
+main .desc .paragraf{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    padding: 30px;
+}
+main .desc .paragraf p{
+    font-size: 1.2em;
+}
+main .example h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+main .example .card-container .card{
+    margin: 10px;
+}
+main .category .btn-group{
+    display: flex;
+    justify-content: center;
+}
+main .category .btn-group .btn{
+    margin: 10px;
+}
+.wa-btn{
+    position: fixed;
+    height:50px;
+    width: 50px;
+    top: 90%;
+    left: 95%;
+}
+.wa-btn a img{
+    height: 50px;
+}
+footer{
+    margin: 20px -20px 0 -20px;
+}
+
+@media (max-width: 600px) {
+    .wa-btn{
+        position: fixed;
+        height:50px;
+        width: 50px;
+        top: 90%;
+        left: 89%;
+    }
+}
