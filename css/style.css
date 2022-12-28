@@ -73,6 +73,9 @@ main .category .btn-group{
 main .category .btn-group .btn{
     margin: 10px;
 }
+main .banefit ul{
+    max-width: 500px;
+}
 .wa-btn{
     position: fixed;
     height:50px;
