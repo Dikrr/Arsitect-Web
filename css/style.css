@@ -76,6 +76,17 @@ main .category .btn-group .btn{
 main .banefit ul{
     max-width: 500px;
 }
+main .maps .mapouter{
+    position:relative;
+    height:500px;
+    width:100%;
+}
+main .maps .mapouter .gmap_canvas{
+    overflow: hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
 .wa-btn{
     position: fixed;
     height:50px;
